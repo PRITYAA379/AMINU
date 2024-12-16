@@ -1,0 +1,217 @@
+/* Global Styles */
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* White background */
+}
+
+.email-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #FFF9E3; /* Soft Yellow background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    background-color: #87CEEB; /* Sky Blue */
+    border-radius: 10px;
+}
+
+.header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    color: #f44336; /* Romantic red tone */
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.header p {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* Ready for an eye-opener text */
+.eye-opener {
+    font-size: 22px;
+    font-family: 'Great Vibes', cursive;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 60px;
+    color: #FFD700; /* Yellow */
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #FFD700; /* Yellow */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Added background for "Why You'll Love It" section */
+.benefits-section {
+    background-color: #FFEB3B; /* Yellow background */
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.benefits-section h3 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.benefits-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.benefits-section li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* Call to Action Button */
+.cta-button {
+    display: block;
+    width: 220px;
+    margin: 30px auto;
+    background-color: #f44336; /* Romantic Red */
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e53935;
+}
+
+/* Social Proof */
+.social-proof {
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    font-size: 12px;
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #f44336;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Image Gallery */
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Before and After Images */
+.image-before-after {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.image-before-after img {
+    max-width: 48%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.image-before-after img:hover {
+    transform: scale(1.02); /* Subtle hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .email-container {
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 36px;
+    }
+
+    .header p {
+        font-size: 24px;
+    }
+
+    .cta-button {
+        width: 200px;
+        padding: 12px;
+    }
+
+    .image-before-after {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-before-after img {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .email-container {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .header p {
+        font-size: 20px;
+    }
+
+    .cta-button {
+        width: 180px;
+        padding: 10px;
+    }
+
+    .social-proof {
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+}
